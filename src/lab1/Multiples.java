@@ -16,4 +16,8 @@ public class Multiples {
         }
         return multiples;
     }
+
+    public static int multiples() {
+        return Multiples.multiples(1000, 3, 5);
+    }
 }
